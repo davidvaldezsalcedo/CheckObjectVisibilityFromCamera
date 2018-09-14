@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 
-[CreateAssetMenu]
-public class FloatVariable : ScriptableObject
+namespace SA
 {
-	public float Value;
+	[CreateAssetMenu]
+	public class FloatVariable : ScriptableObject
+	{
+		public float Value;
+	}
 }
